@@ -30,21 +30,23 @@ pip3 install -r requirements.txt
 
 ## Result
 
+The following are the results of different data set. Note that the blue trajectory is the initial trajectory and the red one is the updated trajectory after SLAM algorithm.
+
 ### Training Data 1
 
-| Trajectory | SLAM Progress |  
-|:-:|:-:|  
-| ![](img/ds20/ds_20_lidar_trj.png) | ![](img/ds20/ds_20.gif) | 
+|            Trajectory             |      SLAM Progress      |
+| :-------------------------------: | :---------------------: |
+| ![](img/ds20/ds_20_lidar_trj.png) | ![](img/ds20/ds_20.gif) |
 
 ### Training Data 2
 
-| Trajectory | SLAM Progress |  
-|:-:|:-:|  
-| ![](img/ds21/ds_21_lidar_trj.png) | ![](img/ds21/ds_21.gif) | 
+|            Trajectory             |      SLAM Progress      |
+| :-------------------------------: | :---------------------: |
+| ![](img/ds21/ds_21_lidar_trj.png) | ![](img/ds21/ds_21.gif) |
 
 ### Testing Data
 
-| Trajectory | SLAM Progress |  
-|:-:|:-:|  
-| ![](img/ds23/ds_23_lidar_trj.png) | ![](img/ds23/ds_23.gif) | 
+|            Trajectory             |      SLAM Progress      |
+| :-------------------------------: | :---------------------: |
+| ![](img/ds23/ds_23_lidar_trj.png) | ![](img/ds23/ds_23.gif) |
 

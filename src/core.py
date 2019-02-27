@@ -24,7 +24,7 @@ def pol2cart(r, theta):
 
 def mapping(grid, pose, scan, res, empty_odds, ocpy_odds):
     '''
-    Plot lidar ranges with log-odds on grid map.
+    Update the grid map with log-odds.
 
     Args:
         grid (80, 80): grid map
