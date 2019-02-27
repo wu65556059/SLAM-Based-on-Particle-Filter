@@ -1,6 +1,6 @@
-# Simultaneous Localization and Mapping (SLAM) based on Particle Filtering
+# Simultaneous Localization and Mapping (SLAM) based on Particle Filter
 
-This project implements Simultaneous Localization and Mapping (SLAM) using odometry, inertial, 2-D laser range, and RGBD measurements from a differential-drive robot, shown below, based on particle filtering.
+This project implements Simultaneous Localization and Mapping (SLAM) using odometry, inertial, 2-D laser range, and RGBD measurements from a differential-drive robot, shown below, based on particle filter.
 
 ![](img/robot.png)
 
@@ -25,6 +25,8 @@ pip3 install -r requirements.txt
 * release: `4.15.0-45-generic`  
 
 * machine: `x86_64`  
+
+* python: `3.6.7` and `3.7.1`
 
 ## Result
 
