@@ -1,5 +1,9 @@
 # Description
 
+## main.py
+
+Implement SLAM based on particle filter.
+
 ## core.py
 
 * `pol2cart()`: Convert coordinates from polar to Cartesian.
@@ -12,13 +16,13 @@
 
 ## data_loader.py
 
-Load data set to a class `DataLoader()`, and preprocess data, such as time stamps alignment and compute initial trajectory.
+`DataLoader()`: Load data and preprocess data, such as time stamps alignment and compute initial trajectory.
 
 ## particle_filter.py
 
-Implement predict and update steps of particle filter in a class `ParticleFilter()`.
+`ParticleFilter()`: Implement predict and update steps of particle filter.
 
-# texture.py
+## texture.py
 
 * `idx_d2img()`: Convert index from depth to rgb.
 
