@@ -28,21 +28,23 @@ pip3 install -r requirements.txt
 
 * python: `3.6.7` and `3.7.1`
 
-## Result
+## Results
 
-The following are the results of different data set. Note that the blue trajectory is the initial trajectory and the red one is the updated trajectory after SLAM algorithm.
+The following are the results of different data set. 
+* Note: The blue trajectory is the initial trajectory and the red one is the updated trajectory after SLAM algorithm. 
+* Note: Texture map is sampled every 20 time stamps.
 
 ### Training Data 1
 
-|            Trajectory             |      SLAM Progress      |
-| :-------------------------------: | :---------------------: |
-| ![](img/ds20/ds_20_lidar_trj.png) | ![](img/ds20/ds_20.gif) |
+|            Trajectory             |      SLAM Progress      |          Texture Map           |
+| :-------------------------------: | :---------------------: | :----------------------------: |
+| ![](img/ds20/ds_20_lidar_trj.png) | ![](img/ds20/ds_20.gif) | ![](img/ds20/ds20_texture.png) |
 
 ### Training Data 2
 
-|            Trajectory             |      SLAM Progress      |
-| :-------------------------------: | :---------------------: |
-| ![](img/ds21/ds_21_lidar_trj.png) | ![](img/ds21/ds_21.gif) |
+|            Trajectory             |      SLAM Progress      |          Texture Map           |
+| :-------------------------------: | :---------------------: | :----------------------------: |
+| ![](img/ds21/ds_21_lidar_trj.png) | ![](img/ds21/ds_21.gif) | ![](img/ds21/ds21_texture.png) |
 
 ### Testing Data
 
